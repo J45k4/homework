@@ -198,3 +198,28 @@ console.log(a) // prints "matti"
 
 Construct object cat which has properties name and breed which have any 
 string type value.
+
+## Tasks 22
+
+Tasks can be tought as a blueprint for building something. Methods are functions that belong to the class.
+
+Example class
+```javascript
+
+// Here we define the blueprint (class) for the house
+class House {
+	openDoor() {
+    	console.log("Open door")
+  	}
+}
+
+// Here we make a instance of House class
+const firstHouse = new House()
+
+// Here we call openDoor method
+firstHouse.openDoor()
+
+```
+
+Make a class named Cat and then implement method called makeSound which should
+print something to the console. Then make a instance of the class and call the method.
