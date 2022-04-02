@@ -201,7 +201,7 @@ string type value.
 
 ## Tasks 22
 
-Tasks can be tought as a blueprint for building something. Methods are functions that belong to the class.
+Classes can be tought as a blueprint for building something. Methods are functions that belong to the class.
 
 Example class
 ```javascript
