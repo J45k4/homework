@@ -223,3 +223,79 @@ firstHouse.openDoor()
 
 Make a class named Cat and then implement method called makeSound which should
 print something to the console. Then make a instance of the class and call the method.
+
+## Task 23
+
+In javascript there is two ways to define functions.
+The first method you are already familiar which is:
+
+```javascript
+function foo() {
+	console.log("foo")
+}
+```
+
+The other way to define functions is:
+
+```javascript
+const foo = () => {
+	console.log("foo")
+}
+```
+
+This is called arrow function. There are very little difference
+between these two ways to define functions, but it is common
+practice to use the arrow function way when defining callbacks
+because it is faster to write.
+
+example:
+```javascript
+window.onload = () => {
+
+}
+// Is equivalent to
+window.onload = function() {
+
+}
+
+```
+
+Example above attach callback which is runned when 
+webpage has been loaded. As we can see arrow function
+little shorter to write but otherwise they seem same.
+
+One benefit of arrow functions is they don't have their
+own this which means this points to parent scope this.
+
+example:
+
+```javascript
+
+class Cat {
+	constructor(element) {
+		this.clickCounter = 0
+
+		this.element.onclick = () => {
+			this.clickCounter++
+		}
+
+		// But if we want to do the same with
+		// normal function definition we need to do
+
+		const self = this
+		this.element onclick = function() {
+			self.clickCounter++
+		}
+
+		// This is because function defined by function
+		// syntax has its on this which means we need to 
+		// create temporary self variable for storing
+		// parent this so it can be used in the function
+	}
+}
+
+```
+
+Your task is to create some function using arrow syntax and then call it.
+
+
