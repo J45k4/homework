@@ -29,3 +29,16 @@ bigger than 17.
 ## Task 4
 
 Print every item in array using foreach.
+
+
+## Task 5
+
+Learn what are closures.
+
+https://www.w3schools.com/js/js_function_closures.asp
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+## Task 6
+
+Make some program using closure.
