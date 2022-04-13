@@ -23,4 +23,6 @@ cd folderpath
 
 ## List of exercises
 
-[Exercises 1](./exercise1/readme.md)
+[Basics 1](./basics/readme.md)
+
+[Basics 2](./basics2/readme.md)
