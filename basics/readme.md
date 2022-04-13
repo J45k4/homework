@@ -296,6 +296,8 @@ class Cat {
 
 ```
 
+Here reference material: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
 Your task is to create some function using arrow syntax and then call it.
 
 
